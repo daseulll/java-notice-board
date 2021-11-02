@@ -2,6 +2,7 @@ package net.board.web;
 
 public class User {
 	private String email;
+	private String nickname;
 	private String password;
 
 	public void setEmail(String email) {
@@ -10,6 +11,10 @@ public class User {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
 	}
 
 	@Override
